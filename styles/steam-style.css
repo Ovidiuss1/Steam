@@ -1,0 +1,250 @@
+
+#idei{
+	position: relative;
+	margin-top: 300px;
+}
+
+
+
+#top{
+	height: 140px;
+	width: auto;
+	position: relative;
+	background: #171A21;
+	
+	background-repeat: no-repeat;
+
+
+}
+a{
+	text-decoration: none;
+}
+body{
+	margin: 0;
+	overflow: hidden;
+	background-color: #1B2838;
+	background-image: url(http://store.akamai.steamstatic.com/public/images/v6/colored_body_top.png?v=2);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+	width: 940px;
+	position: relative;
+	margin: 0px auto;
+	height:140px;
+	
+}
+
+#logo img{
+	margin-top: 50px;
+	float:left;
+	
+}
+
+.dropdown-content{
+	text-decoration: none;
+	color:gray;
+	display: none;
+	box-shadow: 0px 8px 16px 0px black ;
+	background-color: #171a21;
+	width: 100px;
+	text-align: center;
+	font-size: 11px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+.dropdown-content p:hover{
+	color:white;
+}
+
+.dropdown-content p{
+	height: ;
+}
+
+.one{
+	color: #B8B6B4;
+	display: inline-block;
+	padding-top: 60px;
+	padding-left: 7px;
+	padding: 60px 7px 7px 7px;
+	font-size: 14px;
+	position: relative;
+}
+.one:hover .dropdown-content{
+	display: block;
+}
+
+#nav-bar{
+	position: absolute;
+    left: 200px;
+    cursor: pointer;
+
+
+
+}
+
+#login{
+	right: 0px;
+	top:6px;
+	height: 21px;
+	position: absolute;
+}
+
+#main-install a{
+	font-size: 11px;
+}
+
+#main-install{
+	
+	height: 21px;
+	display: inline-block;
+	position: relative;
+}
+
+#install-left{
+	background-image: url(http://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_green.png?v=1);
+	background-position: 0px 0px;
+	width: 24px;
+	height: 21px;
+	position: absolute;
+}
+
+#install-right{
+	right: 0;
+	top: 0;
+	position: absolute;
+	width:1px;
+	height:21px;
+	background-image: url(http://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_green.png?v=1);
+}
+
+#button{
+	display: inline-block;
+    padding-left: 27px;
+    padding-right: 7px;
+    height: 21px;
+    line-height: 21px;
+    background-position: 0px -21px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+    background-image: url(http://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_green.png?v=1);
+    background-repeat: repeat-x;
+}
+
+#lang{
+	color: white;
+	display: inline-block;
+
+}
+#lang a{
+	color: #B8B6B4;
+	font-size: 11px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#lang span{
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #B8B6B4;
+}
+#arow{
+	background-image: url(http://store.akamai.steamstatic.com/public/shared/images/popups/btn_arrow_down_padded.png);
+	display: inline-block;
+	width: 9px;
+	height: 12px;
+	position: absolute;
+	margin-top: 4px;
+	background-repeat: no-repeat;
+}
+
+/*/////////////////////        LOWER NAV BAR              ///////////////// */
+
+#lower-nav{
+	background-color: #3A6E95;
+	height: 40px;
+	position: relative;
+	top: 30px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+#featured{
+	text-align: center;
+	text-decoration: none;
+	color:#55B9EF;
+	line-height: 40px;
+	padding-left:12px;
+	float: left; 
+	border-right: 1px solid black;
+	padding-right: 12px;
+	font-size: 12px;
+}
+
+#news{
+	text-align: center;
+	text-decoration: none;
+	color:#55B9EF;
+	line-height: 40px;
+	padding-left:12px;
+	float: left; 
+	border-right: 1px solid black;
+	padding-right: 12px;
+	font-size: 12px;
+}
+.pull-down{
+	text-align: center;
+	text-decoration: none;
+	color:#55B9EF;
+	line-height: 40px;
+	padding-left:12px;
+	float: left; 
+	border-right: 1px solid black;
+	padding-right: 12px;
+	font-size: 12px;
+	cursor: pointer;
+
+}
+
+
+
+
+.pull-down a{
+	
+	color:#55B9EF;
+}
+
+.pull-down .inners span{
+	background-image: url(http://store.akamai.steamstatic.com/public/images/v6/btn_arrow_down_padded.png);
+	background-repeat: no-repeat;
+	width: 19px;
+	height: 12px;
+	display: inline-block;
+
+
+	
+}
+
+#searchbox{
+	width: 216px;
+	height: 30px;
+	background-image: url(http://store.akamai.steamstatic.com/public/images/v6/store_header_search.png?v=1);
+	position: relative;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#search{
+	background-color: transparent;
+	margin-top: 3px;
+	margin-left: 8px;
+	outline: none;
+	border: none;
+	color: #345E95;
+	line-height: 23px;
+}
